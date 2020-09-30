@@ -1,0 +1,92 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Slabo 27px';
+    margin: 70px 0 70px 0;
+}
+
+header img{
+    width: 85px;
+    height: auto;
+}
+
+header h1{
+    font-size:  50px;
+}
+
+header a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    padding: 12px;
+}
+
+.connexion, .inscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 100px 25% 100px 25%;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: 'Roboto';
+}
+
+button{
+    display: block;
+    margin : 30px auto 30px auto;
+}
+
+.connexion h3, .inscription h3{
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
+
+.connexion input{
+    margin-left: 15px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.connexion label + label{
+    margin-left: 40px;
+}
+
+.connexion a{
+    font-size: 12px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+hr{
+    width: 70%;
+}
+
+.inscription label{
+    display: block;
+    margin-top: 40px;
+}
+
+.inscription input{
+    margin-left: 25px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .connexion input{
+        display: block;
+        margin: 10px;
+    }
+    .connexion{
+        text-align: center;
+    }
+    .connexion label + label{
+        margin-left: 0;
+    }
+}
